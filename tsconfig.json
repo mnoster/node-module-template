@@ -17,6 +17,6 @@
     "outDir": "./dist"
   },
   "files": [
-    "src/<moduleName>.ts"
+    "src/np.ts"
   ]
 }

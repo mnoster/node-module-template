@@ -1,1 +1,1 @@
-exports.<exportedModuleName> = require('./dist/<moduleName>').<exportedModuleName>;
+exports.np = require('./dist/np').np;

@@ -1,7 +1,7 @@
-import { <exportedModuleName> } from './dist/<moduleName>';
+import { np } from './dist/np';
 if (typeof window !== 'undefined') {
-    window.<exportedModuleName> = <exportedModuleName>;
+    window.np = np;
 }
 else {
-    exports.<exportedModuleName> = <exportedModuleName>;
+    exports.np = np;
 }
